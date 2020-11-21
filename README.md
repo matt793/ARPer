@@ -5,7 +5,7 @@ ARPer is a mixture of Python and Bash scripting. This script helps a user easily
 
 Getting up and running:
 
-First run the install.sh script of software dependences, and then changed connection point/driver name to make script run.
+First run the install.sh script of software dependences, and then change connection point/driver name to make script run.
 
 Script will not run unless you add your connection point/driver name.
 Change the following py line 16 in ARPposion.py, located it the attack folder:
@@ -13,6 +13,7 @@ Change the following py line 16 in ARPposion.py, located it the attack folder:
 attack1 = os.system("sudo ettercap -T -S -i <Add connection here> -M arp:remote /" + (input("First add gateway: ") + "//" + (input("Add target: ") + "//")))
 
 Find connection point by typing:
+
 iwconfig for WiFi card/driver.
 
 Or:
