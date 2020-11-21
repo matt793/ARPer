@@ -1,7 +1,7 @@
 # ARPer
 What is ARPer?
 
-ARPer is a mixture of Python and Bash scripting. This script helps a user easily setup a ARPposion attack.
+ARPer is a mixture of Python and Bash scripting. This script helps a user easily setup a ARPposion attack. This is for Linux only.
 
 Getting up and running:
 
