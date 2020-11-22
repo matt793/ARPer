@@ -15,9 +15,6 @@ Find connection point by typing:
 
 `iwconfig` for WiFi card/driver.
 
-You may need to change WiFi card name from wlan0 to the name of your device by changing the code python code. 
-Go to ARPposion.py and change line 17. Delete wlan0 to the name of your device.
-
 ----
 
 ## Usage
@@ -28,8 +25,10 @@ A coded Nmap scan will run (which will show defalt gateway, and a list of host t
 
 If you know gateway and target: press `ctrl + C` 2x to skip Nmap scan. Wireshark will also open for network scanning.
 
-First add gateway: will show up, type in your sub gateway ip.
-then Add target: will show. Type in target ip, and the ARPposion attack will start.
+First add gateway into target 1 in ettercap.
+Then add target ip into target 2 in ettercap.
+
+Slect MITM from the earth drop down menu. A ARP Posion attack will start.
 
 Lastly start a Wireshark scan to watch the network traffic of the targeted ip.
 
