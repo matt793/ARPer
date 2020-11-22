@@ -16,7 +16,7 @@ Find connection point by typing:
 `iwconfig` for WiFi card/driver.
 
 You may need to change WiFi card name from wlan0 to the name of your device by changing the code python code. 
-Go to ARPposion.py and change line 18. Delete wlan0 to the name of your device.
+Go to ARPposion.py and change line 17. Delete wlan0 to the name of your device.
 
 ----
 
