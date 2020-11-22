@@ -6,28 +6,12 @@ ARPer is a mixture of Python and Bash scripting. This script helps a user easily
 ## Instructions
 
 First run the install.sh script of software dependences, and then change connection point/driver name to make script run.
-
-Script will not run unless you add your connection point/driver name.
-Change the following py line 16 in ARPposion.py, located it the attack folder:
     
-`attack1 = os.system("sudo ettercap -T -S -i <Add connection here> -M arp:remote /" + (input("First add gateway: ") + "//" + (input("Add target: ") + "//")))`
+You will then need to input your WiFi card into the prompt.
 
 Find connection point by typing:
 
-iwconfig for WiFi card/driver.
-
-Or:
-
-ifconfig Ethernet or internal card/driver.
-
-Copy and paste the name of chosen driver into <Add connection here> on line 16 of ARPposion.py.
-    
-Delete '< >' when adding your conection point/driver.
-
-Example:
-`attack1 = os.system("sudo ettercap -T -S -i wlan0 -M arp:remote /" + (input("First add gateway: ") + "//" + (input("Add target: ") + "//")))`
-
-Once connection is changed, script should work.
+'iwconfig' for WiFi card/driver.
 
 ----
 
