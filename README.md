@@ -6,12 +6,17 @@ ARPer is a mixture of Python and Bash scripting. This script helps a user easily
 ## Instructions
 
 First run the install.sh script of software dependences, and then change connection point/driver name to make script run.
+
+You also might need to turn all .py and .sh files into a exicutable by typing `chmod 755 <file name>`.
     
 You will then need to input your WiFi card into the prompt.
 
 Find connection point by typing:
 
 `iwconfig` for WiFi card/driver.
+
+You may need to change WiFi card name from wlan0 to the name of your device by changing the code python code. 
+Go to ARPposion.py and change line 18. Delete wlan0 to the name of your device.
 
 ----
 
