@@ -13,7 +13,7 @@ You will then need to input your WiFi card into the prompt.
 
 Find connection point by typing:
 
-`iwconfig` for WiFi card/driver.
+`ip addr` for WiFi card/driver.
 
 ----
 
