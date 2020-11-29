@@ -32,4 +32,5 @@ Slect MITM from the earth drop down menu. A ARP Posion attack will start.
 Lastly start a Wireshark scan to watch the network traffic of the targeted ip.
 
 type `ip.addr == <target ip>` into Wireshark search to monitor targeted traffic.
+
 ![Example](ARPer.png "Example")
