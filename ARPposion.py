@@ -3,6 +3,19 @@
 #Welcome to ARPer posion script
 import os
 from colorama import Fore
+
+print(Fore.BLUE)
+
+
+print("       █████████   ███████████   ███████████                          ")
+print("     ███░░░░░███ ░░███░░░░░███ ░░███░░░░░███                         ")
+print("     ░███    ░███  ░███    ░███  ░███    ░███  ██████  ████████      ")
+print("     ░███████████  ░██████████  ░██████████  ███░░███░░███░░███   ")
+print("     ░███░░░░░███  ░███░░░░░███ ░███░░░░░░  ░███████  ░███ ░░░    ")
+print("     ░███    ░███  ░███    ░███  ░███         ░███░░░    ░███           ")
+print("     █████   █████ █████   █████ █████       ░░██████   █████         ")
+print("    ░░░░░   ░░░░░ ░░░░░   ░░░░░ ░░░░░         ░░░░░░   ░░░░░          ")
+                                                            
 print()
 print(Fore.GREEN + "We have opened up 'Wireshark' for you, \nwhile you wait for the network scan to finish!\nIf you know gateway and target: press 'ctrl + C' 2x.")
 print()
