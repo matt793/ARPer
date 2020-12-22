@@ -1,4 +1,4 @@
 #!/bin/bash
 
-wireshark.py &
-ARPer.py
+./wireshark.py &
+./ARPer.py
